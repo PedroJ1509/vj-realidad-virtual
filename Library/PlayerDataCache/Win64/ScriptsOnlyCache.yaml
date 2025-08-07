@@ -17,8 +17,12 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/RealidadVirtual.unity:
     - Class: 1
@@ -54,7 +58,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11550}
     - Class: 114
+      Script: {instanceID: 11766}
+    - Class: 114
       Script: {instanceID: 11812}
+    - Class: 114
+      Script: {instanceID: 12308}
+    - Class: 114
+      Script: {instanceID: 13528}
+    - Class: 114
+      Script: {instanceID: 14002}
     - Class: 114
       Script: {instanceID: 20664}
     - Class: 114
@@ -62,6 +74,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 22044}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 143
       Script: {instanceID: 0}
